@@ -1,0 +1,100 @@
+.ads {
+  width: 100%;
+  padding: 30px 0;
+  background-color: #eaf0f6;
+  text-align: center;
+}
+.ads-head {
+  max-width: 600px;
+  margin: auto;
+  padding-bottom: 25px;
+}
+
+.ads-frame {
+  background-image: url("https://www.hubspot.com/hubfs/assets/hubspot.com/_style-guide/sword-sprocket/page-header__browser-large-grey.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: auto;
+  border-radius: 1mm;
+
+  width: 100%;
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.get-started {
+  width: 100%;
+  padding-left: 10%;
+}
+.get-started-box {
+  width: 50%;
+
+  text-align: center;
+
+  background-color: #fff;
+  padding: 1.5em;
+  border-radius: 3px;
+  margin: auto;
+  margin-bottom: -5%;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.25);
+}
+
+.get-started p {
+  padding: 1mm;
+}
+.button-get-started {
+  width: 50%;
+  height: auto;
+  padding: 2%;
+
+  font-size: 12px;
+  background-color: #ff7a59;
+  color: #fff;
+  border: none;
+  border-radius: 0.5mm;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.25);
+}
+.video-play {
+  width: 90%;
+}
+.video-play-button {
+  background: url(https://www.hubspot.com/hubfs/play-button.svg);
+  background-size: 100%;
+  transition: 0.6s ease background-color;
+  background-color: #ff7a59;
+  border-radius: 50%;
+  height: 10em;
+  margin-top: 7%;
+  color: #fff;
+  width: 10em;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.Ads-work {
+  padding: 5%;
+}
+
+.ads-work-grid {
+  width: 100%;
+  padding-top: 5%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.sub-grid {
+  width: 100%;
+  height: 100%;
+}
+.sub-grid-image {
+  width: 70%;
+  height: 100%;
+  margin: 5% auto;
+}
+.sub-grid-image img {
+  width: 100%;
+}
+.sub-grid-text {
+  width: 70%;
+  margin: auto;
+}
