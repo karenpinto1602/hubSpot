@@ -72,10 +72,22 @@ const getSupportMedia = () => {
           src={window.location.origin + "/images/footer/fb-logo.png"}
           alt=""
         />
-        <img src={window.location.origin + "/images/footer/fb-logo.png"} />
-        <img src={window.location.origin + "/images/footer/fb-logo.png"} />
-        <img src={window.location.origin + "/images/footer/fb-logo.png"} />
-        <img src={window.location.origin + "/images/footer/fb-logo.png"} />
+        <img
+          src={window.location.origin + "/images/footer/fb-logo.png"}
+          alt=""
+        />
+        <img
+          src={window.location.origin + "/images/footer/fb-logo.png"}
+          alt=""
+        />
+        <img
+          src={window.location.origin + "/images/footer/fb-logo.png"}
+          alt=""
+        />
+        <img
+          src={window.location.origin + "/images/footer/fb-logo.png"}
+          alt=""
+        />
       </div>
     </div>
   );

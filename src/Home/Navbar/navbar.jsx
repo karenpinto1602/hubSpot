@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
+//import Nav from "react-bootstrap/Nav";
 import "./navbar.css";
 
 const NavigationBar = () => {
   return (
     <Navbar>
-      <img className="nav-logo" src="/images/hubspot-logo.png" />
+      <img className="nav-logo" src="/images/hubspot-logo.png" alt="" />
       {/* <div className="nav-groups" style={{ float: "right" }}>
         <ul className="ul-groups" style={{}}>
           <li className="ul-group-li " style={{ display: "inline" }}>

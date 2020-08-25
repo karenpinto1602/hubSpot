@@ -53,7 +53,7 @@ const getAdsWork = () => {
       <div className="ads-work-grid">
         <div className="sub-grid">
           <div className="sub-grid-image">
-            <img src={window.location.origin + "/images/ss.png"} />
+            <img src={window.location.origin + "/images/ss.png"} alt="" />
           </div>
         </div>
         <div className="sub-grid">
