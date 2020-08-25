@@ -48,6 +48,7 @@ const getMenu = (items) => {
   return items.map((item, key) => {
     return (
       <div key={key} className="upper-menu">
+        <input type="checkbox" style={{ display: "none" }}></input>
         <div className="upper-menu-title">{item.title}</div>
         <div className="upper-menu-content">
           {item.content.map((val, key) => {
@@ -73,7 +74,7 @@ const getSupportMedia = () => {
           alt=""
         />
         <img
-          src={window.location.origin + "/images/footer/fb-logo.png"}
+          src={window.location.origin + "/images/footer/insta-logo.png"}
           alt=""
         />
         <img

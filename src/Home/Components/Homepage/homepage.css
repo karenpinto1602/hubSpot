@@ -5,7 +5,7 @@
   text-align: center;
 }
 .ads-head {
-  max-width: 600px;
+  width: 600px;
   margin: auto;
   padding-bottom: 25px;
 }
@@ -29,9 +29,7 @@
 }
 .get-started-box {
   width: 50%;
-
   text-align: center;
-
   background-color: #fff;
   padding: 1.5em;
   border-radius: 3px;
@@ -75,6 +73,11 @@
 .Ads-work {
   padding: 5%;
 }
+.Ads-work-head {
+  width: 65%;
+  margin: auto;
+  font-size: 30px;
+}
 
 .ads-work-grid {
   width: 100%;
@@ -97,4 +100,49 @@
 .sub-grid-text {
   width: 70%;
   margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .ads {
+    width: 100%;
+    padding: 5px 0 15px 0;
+    margin: auto;
+  }
+  .ads-head {
+    width: 90%;
+    padding-bottom: 5px;
+  }
+
+  .ads-frame {
+    background-image: none;
+    padding-top: 20px;
+    grid: none;
+  }
+  .get-started {
+    padding-left: 0;
+  }
+  .get-started-box {
+    width: 90%;
+    margin-bottom: 0;
+  }
+  .video-play {
+    display: none;
+  }
+
+  .Ads-work-head {
+    width: 100%;
+    margin: auto;
+    font-size: 25px;
+  }
+  .ads-work-grid {
+    grid: none;
+  }
+  .sub-grid-image {
+    width: 95%;
+    margin: auto;
+  }
+  .sub-grid-text {
+    width: 90%;
+    text-align: left;
+  }
 }

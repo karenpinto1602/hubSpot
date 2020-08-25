@@ -37,19 +37,19 @@ const getAds = () => {
 const getAdsWork = () => {
   return (
     <div className="Ads-work">
-      <p
-        style={{
-          fontSize: "30px",
-          maxWidth: "65%",
-          textAlign: "center",
-          margin: "auto",
-        }}
-      >
-        <b>
-          Stop struggling to justify your paid advertising, and start
-          understanding which ads actually work.
-        </b>
-      </p>
+      <div className="Ads-work-head">
+        <p
+          style={{
+            textAlign: "center",
+            margin: "auto",
+          }}
+        >
+          <b>
+            Stop struggling to justify your paid advertising, and start
+            understanding which ads actually work.
+          </b>
+        </p>
+      </div>
       <div className="ads-work-grid">
         <div className="sub-grid">
           <div className="sub-grid-image">
