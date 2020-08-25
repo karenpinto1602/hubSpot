@@ -23,7 +23,7 @@ const data = [
     ],
   },
   {
-    title: "Close and Manage Leads",
+    title: "Close and Manage",
     content: [
       "Documenting Tracking Tool",
       "Meeting Schedule Tool",
@@ -53,9 +53,9 @@ const getMenu = (items) => {
         <div className="upper-menu-content">
           {item.content.map((val, key) => {
             return (
-              <div key={key} className="content-body">
+              <p key={key} className="content-body">
                 {val}
-              </div>
+              </p>
             );
           })}
         </div>
@@ -78,15 +78,15 @@ const getSupportMedia = () => {
           alt=""
         />
         <img
-          src={window.location.origin + "/images/footer/fb-logo.png"}
+          src={window.location.origin + "/images/footer/youtube-logo.png"}
           alt=""
         />
         <img
-          src={window.location.origin + "/images/footer/fb-logo.png"}
+          src={window.location.origin + "/images/footer/twitter-logo.png"}
           alt=""
         />
         <img
-          src={window.location.origin + "/images/footer/fb-logo.png"}
+          src={window.location.origin + "/images/footer/ln-logo.png"}
           alt=""
         />
       </div>

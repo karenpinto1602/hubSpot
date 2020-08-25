@@ -1,6 +1,6 @@
 .ads {
   width: 100%;
-  padding: 30px 0;
+  padding: 20px 0 50px 0;
   background-color: #eaf0f6;
   text-align: center;
 }
@@ -19,7 +19,7 @@
   border-radius: 1mm;
 
   width: 100%;
-  padding-top: 100px;
+  padding-top: 90px;
   display: grid;
   grid-template-columns: 60% 40%;
 }
